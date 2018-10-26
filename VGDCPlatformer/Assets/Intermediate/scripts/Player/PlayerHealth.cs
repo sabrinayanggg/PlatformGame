@@ -40,6 +40,7 @@ public class PlayerHealth : MonoBehaviour {
             SpawnPoint = collide.transform;
             GameManager.UpdateSpawn(collide.transform);
         }
+
 	}
 
 	// Update is called once per frame

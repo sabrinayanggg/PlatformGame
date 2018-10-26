@@ -434,19 +434,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4294729907483528, guid: fc022bf348a77db4b867effe5b70299d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -14.15
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 4294729907483528, guid: fc022bf348a77db4b867effe5b70299d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.12
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: 4958623616555050, guid: fc022bf348a77db4b867effe5b70299d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.33
+      value: -0.27
       objectReference: {fileID: 0}
     - target: {fileID: 4958623616555050, guid: fc022bf348a77db4b867effe5b70299d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.09
+      value: -14.28
       objectReference: {fileID: 0}
     - target: {fileID: 4436879774619606, guid: fc022bf348a77db4b867effe5b70299d, type: 2}
       propertyPath: m_LocalPosition.x

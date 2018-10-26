@@ -29,7 +29,7 @@ public class TheEnemy : MonoBehaviour {
 
 		//enemy moves until reaching a boundary, then we will flip the gameObject
 		if (transform.position.x >= positionA.position.x ||
-		transform.position.x < positionB.position.x) 
+		transform.position.x <= positionB.position.x) 
 		{
 			Flip();
 		}
