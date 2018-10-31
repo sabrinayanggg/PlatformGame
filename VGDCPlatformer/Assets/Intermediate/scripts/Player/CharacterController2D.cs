@@ -55,7 +55,7 @@ public class CharacterController2D : MonoBehaviour {
                 Flip();
             }
             else if (move < 0 && m_FacingRight)
-            {
+            { 
                 Flip();
             }
 

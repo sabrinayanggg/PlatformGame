@@ -4,9 +4,31 @@ using UnityEngine;
 
 public class MovingPlatform : MonoBehaviour {
 
+
     //manages platform movement at different points
     [Header("Platform Positions")]
     public Transform movingPlatform; //platform gameObject that we will be moving
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        //set the player as a child to the platform gaemObject
+        //this allows movement of the player with moving platforms
+        if (collision.gameObject.CompareTag("Player"))
+        { 
+
+            collision.collider.transform.SetParent(transform);
+        }
+    }
+
+    public void OnCollisionExit2D(Collision2D collision)
+    {
+        //removes the player from being a child of this platform gameObject
+        //once player is not on the platform.
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.collider.transform.SetParent(null);
+        }
+    }
 
     /*Points where the platform  will move*/
     public Transform position1; 
@@ -32,7 +54,10 @@ public class MovingPlatform : MonoBehaviour {
     {
         //update the movement of the platform
         movingPlatform.position = Vector3.Lerp(movingPlatform.position, newPosition, platformVelocity * Time.deltaTime);
+
     }
+
+
 
     void ChangeTarget()
     {
