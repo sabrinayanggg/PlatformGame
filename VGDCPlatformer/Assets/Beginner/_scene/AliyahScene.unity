@@ -292,6 +292,10 @@ Prefab:
       propertyPath: m_WasSpriteAssigned
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1681051612110178, guid: 7dc2b33c88c214d04af9cb9693005dfc, type: 2}
+      propertyPath: m_Name
+      value: CookieEnemy1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7dc2b33c88c214d04af9cb9693005dfc, type: 2}
   m_IsPrefabAsset: 0
