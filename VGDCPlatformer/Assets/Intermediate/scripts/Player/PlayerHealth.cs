@@ -40,6 +40,7 @@ public class PlayerHealth : MonoBehaviour {
         {
             SpawnPoint = collide.transform;
             GameManager.UpdateSpawn(collide.transform);
+            Debug.Log("2");
         }
 
 	}
@@ -50,9 +51,9 @@ public class PlayerHealth : MonoBehaviour {
 		if (health <= 0)
 		{
             //restarts level
-            SceneManager.LoadScene(scene);
-            
-		}
+            //SceneManager.LoadScene(scene);
+            Start();
+        }
 	}
 
 	public void TakeDamage(){
