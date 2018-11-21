@@ -51,8 +51,8 @@ public class PlayerHealth : MonoBehaviour {
 		if (health <= 0)
 		{
             //restarts level
-            //SceneManager.LoadScene(scene);
-            Start();
+            SceneManager.LoadScene(scene);
+            //Start();
         }
 	}
 
