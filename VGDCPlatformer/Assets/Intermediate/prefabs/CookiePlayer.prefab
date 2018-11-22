@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4830252972722724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: groundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -34,8 +34,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4505998418691382}
-  m_Layer: 0
-  m_Name: WallCheck
+  m_Layer: 9
+  m_Name: wallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 3306451490063965843, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 114372944475792534}
   - component: {fileID: 70095206170854614}
   - component: {fileID: 95779828774716004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CookiePlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1892718801306874}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.074941, y: -3.528, z: -0.111328125}
+  m_LocalPosition: {x: -102.48, y: -3.59, z: -0.111328125}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 4830252972722724}
@@ -87,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1304376494255274}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7, y: -0.2, z: 0}
+  m_LocalPosition: {x: -0.727, y: -0.102, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4050605685494172}
@@ -100,7 +100,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1195649962858900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.6, z: 0}
+  m_LocalPosition: {x: 0, y: -0.118, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4050605685494172}
@@ -132,28 +132,28 @@ CircleCollider2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1892718801306874}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: a177032af699de74c9c399593cc31ed2, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.02}
+  m_Offset: {x: -0.0069701076, y: -0.06646685}
   serializedVersion: 2
-  m_Radius: 0.15
+  m_Radius: 0.10585656
 --- !u!61 &61007179241012992
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1892718801306874}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 6200000, guid: a177032af699de74c9c399593cc31ed2, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.22724351}
+  m_Offset: {x: -0.012066312, y: 0.071851775}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -164,7 +164,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.07, y: 0.515513}
+  m_Size: {x: 0.16255538, y: 0.17479467}
   m_EdgeRadius: 0
 --- !u!70 &70095206170854614
 CapsuleCollider2D:
@@ -188,7 +188,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1892718801306874}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 7e3d654fcc93643e9b1810c82d24e602, type: 2}
   m_CullingMode: 0
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_MovementSmoothing: 0.05
   m_GroundLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 257
   m_GroundCheck: {fileID: 4830252972722724}
   m_HorizontalCheck: {fileID: 0}
   m_AirControl: 1
@@ -235,7 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f217c403e0d4d540a9af7233629e721, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runSpeed: 40
+  runSpeed: 25
   controller: {fileID: 114293245065528434}
 --- !u!114 &114722367708070526
 MonoBehaviour:
@@ -248,10 +248,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc5796e4f475c24ca53110d404e9ee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 
+  scene: AliyahScene
   startHealth: 1
   health: 1
-  SpawnPoint: {fileID: 0}
+  SpawnPoint: {fileID: 4830252972722724}
 --- !u!212 &212839816659738054
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -286,7 +286,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1890391441
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 80703bfa5b6fe40c4b2555b9e90698d9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
