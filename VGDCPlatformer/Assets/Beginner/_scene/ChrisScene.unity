@@ -4041,6 +4041,35 @@ Prefab:
       propertyPath: scene
       value: ChrisScene
       objectReference: {fileID: 0}
+    - target: {fileID: 114293245065528434, guid: c479d2db1068e4b4e8bea555d10833ff,
+        type: 2}
+      propertyPath: m_GroundLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 4830252972722724, guid: c479d2db1068e4b4e8bea555d10833ff, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 114293245065528434, guid: c479d2db1068e4b4e8bea555d10833ff,
+        type: 2}
+      propertyPath: m_HorizontalCheck
+      value: 
+      objectReference: {fileID: 1980612748}
+    - target: {fileID: 95779828774716004, guid: c479d2db1068e4b4e8bea555d10833ff,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114372944475792534, guid: c479d2db1068e4b4e8bea555d10833ff,
+        type: 2}
+      propertyPath: runSpeed
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 212839816659738054, guid: c479d2db1068e4b4e8bea555d10833ff,
+        type: 2}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c479d2db1068e4b4e8bea555d10833ff, type: 2}
   m_IsPrefabAsset: 0
@@ -19686,6 +19715,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4783456374423910, guid: e0bcaf89bfc8642bf8b9b1da8cd137fb,
     type: 2}
   m_PrefabInternal: {fileID: 294185165}
+--- !u!4 &1980612748 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4505998418691382, guid: c479d2db1068e4b4e8bea555d10833ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 841536378}
 --- !u!1001 &1986376083
 Prefab:
   m_ObjectHideFlags: 0

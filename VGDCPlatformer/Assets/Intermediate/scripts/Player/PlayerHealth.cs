@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour {
 
     public string scene;
+    public string newscene;
 	public int startHealth = 1; //the amount of health the player is suppose to start with
 	public int health; //the amount of health the player has, at 0 player dies
 	//public float playerSpawnX = -17.3f; //where the player spawns at start or death, X coord
@@ -42,8 +43,12 @@ public class PlayerHealth : MonoBehaviour {
             GameManager.UpdateSpawn(collide.transform);
             Debug.Log("2");
         }
+        if (collide.gameObject.tag == "Finish")
+        {
+            SceneManager.LoadScene(newscene);
+        }
 
-	}
+    }
 
 	// Update is called once per frame
 	void Update () {
