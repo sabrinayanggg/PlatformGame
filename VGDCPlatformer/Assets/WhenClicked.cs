@@ -14,10 +14,11 @@ public class WhenClicked : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        SceneManager.LoadScene(scene);
+        
     }
 
-    void GoToScene(){
+    public void GoToScene(){
+        Debug.Log('e');
         SceneManager.LoadScene(scene);
     }
 }

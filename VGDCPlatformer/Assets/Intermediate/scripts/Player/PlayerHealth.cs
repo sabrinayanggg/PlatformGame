@@ -45,7 +45,7 @@ public class PlayerHealth : MonoBehaviour {
         }
         if (collide.gameObject.tag == "Finish")
         {
-            SceneManager.LoadScene(newscene);
+            SceneManager.LoadScene(newscene); 
         }
 
     }

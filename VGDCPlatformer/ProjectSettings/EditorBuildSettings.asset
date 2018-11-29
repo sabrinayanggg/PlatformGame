@@ -11,4 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Beginner/_scene/Main.unity
     guid: 1eb8b492c36834edabcf4b1707e512f0
+  - enabled: 1
+    path: Assets/Beginner/_scene/JaredScene.unity
+    guid: fbe85a568a17141bb82f7419f2e6f7df
+  - enabled: 1
+    path: Assets/Beginner/_scene/ChrisScene.unity
+    guid: f83da3e91463c4925a6e3d9b3b6a0d82
+  - enabled: 1
+    path: Assets/Beginner/_scene/AliyahScene.unity
+    guid: 1159c83e1d71f43f7b9b04289e1e4806
+  - enabled: 1
+    path: Assets/Beginner/_scene/BossBattle.unity
+    guid: 5255e42ffd5fe2a4085eeee2839fc989
   m_configObjects: {}
