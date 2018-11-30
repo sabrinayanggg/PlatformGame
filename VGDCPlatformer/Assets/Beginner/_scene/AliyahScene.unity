@@ -4430,12 +4430,12 @@ Prefab:
     - target: {fileID: 58757753847046168, guid: f1f80b1c096094976beef99474449de1,
         type: 2}
       propertyPath: m_Offset.y
-      value: 0.007080574
+      value: 0.0012804158
       objectReference: {fileID: 0}
     - target: {fileID: 58757753847046168, guid: f1f80b1c096094976beef99474449de1,
         type: 2}
       propertyPath: m_Radius
-      value: 0.15536019
+      value: 0.14973499
       objectReference: {fileID: 0}
     - target: {fileID: 4074752195622296, guid: f1f80b1c096094976beef99474449de1, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4463,7 +4463,32 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 61135656840759382, guid: f1f80b1c096094976beef99474449de1,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.58701783
+      objectReference: {fileID: 0}
+    - target: {fileID: 61135656840759382, guid: f1f80b1c096094976beef99474449de1,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.27403557
+      objectReference: {fileID: 0}
+    - target: {fileID: 58757753847046168, guid: f1f80b1c096094976beef99474449de1,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95165299850608296, guid: f1f80b1c096094976beef99474449de1,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d7fedc1c947375049a6f8529b26af724, type: 2}
+    - target: {fileID: 1018400654794602, guid: f1f80b1c096094976beef99474449de1, type: 2}
+      propertyPath: m_TagString
+      value: hitbox
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 95654474509200424, guid: f1f80b1c096094976beef99474449de1, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: f1f80b1c096094976beef99474449de1, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1001 &2128012933
